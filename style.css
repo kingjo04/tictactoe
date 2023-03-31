@@ -1,0 +1,47 @@
+.container {
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+}
+
+#board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    background-color: #EEE;
+    border: 1px solid #999;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    font-size: 60px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #DDD;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #666;
+}
+
+#reset {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #DDD;
+    border: none;
+    cursor: pointer;
+}
+
+#reset:hover {
+    background-color: #AAA;
+}
